@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: turquoise;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 50%;
+    padding: 14px 20px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 0px;
+
+    background-color: rgba(26, 37, 60, 0.2);
+}
+
+select {
+    padding: 12px 22px;
+    margin: 8px 0;
+    border-radius: 5px;
+    background-color: rgba(26, 37, 60, 0.2);
+}
+
+option {
+    background-color: rgba(26, 37, 60, 0.2);
+}
+
+button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(26, 37, 60, 0.2);
+}
+
+button:hover {
+    transform: translate(0px, -5px);
+    transition: all ease .5s;
+    background-color: #4b6cb7;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+section {
+    background-image: radial-gradient(circle, #447a44 10%, #182848 90%);
+    padding: 50px;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.op {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.op div {
+    background-color: rgba(26, 37, 60, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.countop {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    margin: 10px;
+}
+
+.countop p {
+    background-color: rgba(26, 37, 60, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    width: 25%;
+}
+
+ul {
+    padding: 50px 30px;
+    border-radius: 5px;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 0px;
+    border: 1px dotted gray;
+    margin-top: 10px;
+}
+
+.aftsub {
+    display: none;
+    background-color: rgba(26, 37, 60, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .op {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+.hide {
+    display: none;
+}

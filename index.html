@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="style.css" rel="stylesheet">
+    <title>drag and drop</title>
+</head>
+
+<body>
+
+    <div class="dragdrop">
+        <section id="drag">
+
+            <h2 style="padding:15px;text-align: center;color: white;">Drag and Drop</h2>
+            <section>
+                <div class="inp">
+                    <label for="name"
+                        style="justify-content:center; display: flex; flex-direction: column;">Name</label><input
+                        id="name" placeholder="Add Name" autocomplete="off" type="text">
+                    <select id="Team" name="Team">
+                        <option value="1">Team 1</option>
+                        <option value="2">Team 2</option>
+                        <option value="3">Team 3</option>
+                        <option value="4">Team 4</option>
+                    </select>
+                    <button id="add" value="submit" onsubmit="return validateinput()">Add</button>
+                </div>
+                <div class="op">
+                    <div>
+                        <h3>Team 1</h3>
+                        <ul id="ul1" class="choice"> </ul>
+
+                    </div>
+                    <div>
+                        <h3>Team 2</h3>
+                        <ul id="ul2" class="choice"></ul>
+
+                    </div>
+                    <div>
+                        <h3>Team 3</h3>
+                        <ul id="ul3" class="choice"></ul>
+
+                    </div>
+                    <div>
+                        <h3>Team 4</h3>
+                        <ul id="ul4" class="choice"></ul>
+                    </div>
+                </div>
+                <div class="countop">
+                    <p id="c1"></p>
+                    <p id="c2"></p>
+                    <p id="c3"></p>
+                    <p id="c4"></p>
+                </div>
+
+                <div>
+                    <Button id="submit">Submit</Button>
+                </div>
+
+                <div class="aftsub">
+                    <div>
+                        <p id="fc1"></p>
+                        <p id="ful1"></p>
+                    </div>
+                    <br>
+                    <div>
+                        <p id="fc2"></p>
+                        <p id="ful2"></p>
+                    </div>
+                    <br>
+                    <div>
+                        <p id="fc3"></p>
+                        <p id="ful3"></p>
+                    </div>
+                    <br>
+                    <div>
+                        <p id="fc4"></p>
+                        <p id="ful4"></p>
+                    </div>
+                </div>
+            </section>
+
+            <script src="script.js"></script>
+</body>
+
+</html>
